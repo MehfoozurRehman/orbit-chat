@@ -4,11 +4,11 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "node init && vite",
+    "dev": "vite",
     "preview": "vite preview",
-    "start": "node init && node build/server.js",
+    "start": "node build/server.js",
     "formate": "prettier . --write .",
-    "build": "node init && vite build"
+    "build": "vite build"
   },
   "dependencies": {
     "react": "^18.2.0",
